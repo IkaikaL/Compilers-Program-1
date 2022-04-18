@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/classes/cs4351/cs435146/prog1'
+cd Parse; java JLex.Main Tiger.lex; mv Tiger.lex.java Yylex.java
+make: Leaving directory '/classes/cs4351/cs435146/prog1'
+ 
+make: *** No rule to make target 'Parse/*.java', needed by 'Parse/*.class'.
+

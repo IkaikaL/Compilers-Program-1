@@ -1,0 +1,250 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Apr 18 15:10:00 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /classes/cs4351/cs435146/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /classes/cs4351/cs435146/prog1
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /classes/cs4351/cs435146/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/4382/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_CWD = /classes/cs4351/cs435146
+# environment
+SSH_CONNECTION = 10.0.128.75 64278 96.125.115.212 22
+# environment
+PATH = /classes/cs4351/cs435146/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/classes/cs4351/cs4351_bau/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:./
+# environment
+PROG = chap6
+# environment
+XDG_RUNTIME_DIR = /run/user/4382
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/4382/vscode-ipc-9d118ac2-aed1-4d36-9f95-e3258a86452a.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /classes/cs4351/cs435146/prog1
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /classes/cs4351/cs435146
+# environment
+LOGNAME = cs435146
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# makefile (from 'Makefile', line 1)
+JFLAGS = -g
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+XDG_SESSION_ID = 22072
+# environment
+USER = cs435146
+# environment
+LS_OPTIONS = --color=auto
+# makefile
+.DEFAULT_GOAL := Parse/*.class
+# environment
+CLASSPATH = .:..:/classes/cs4351/cs4351_bau/pub/classes/chap6:/classes/cs4351/cs4351_bau/pub/classes
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /classes/cs4351/cs435146/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# default
+.VARIABLES := 
+# environment
+TIGER = /classes/cs4351/cs4351_bau/pub/tiger
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 10.0.128.75 64278 22
+# environment
+MAIL = /var/mail/cs435146
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /classes/cs4351/cs435146/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/helpers/browser.sh
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+CS4351 = /classes/cs4351/cs4351_bau/pub
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=73/1024=7%, Rehash=0, Collisions=10/98=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 7605009): 7 files, no impossibilities.
+# Parse (device 2049, inode 12195362): 3 files, no impossibilities.
+
+# 10 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Parse/Tiger.lex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Parse/Yylex.java: Parse/Tiger.lex
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+	cd Parse; java JLex.Main Tiger.lex; mv Tiger.lex.java Yylex.java
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 1998-02-12 09:46:53
+#  File has been updated.
+#  Successfully updated.
+
+Parse/*.class: Parse/*.java Parse/Yylex.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 4):
+	javac ${JFLAGS} Parse/*.java
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Parse/*.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	rm -f */*.class Parse/Yylex.java
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/23=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 176 B / avg = 9 B
+# current buf: size = 8162 B / used = 176 B / count = 18 / avg = 9 B
+
+# strcache performance: lookups = 29 / hit rate = 37%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=2/29=7%
+# Finished Make data base on Mon Apr 18 15:10:00 2022
+
+ 

@@ -1,0 +1,1 @@
+{"buildTargets":["Parse/*.class","Parse/Yylex.java","clean"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
